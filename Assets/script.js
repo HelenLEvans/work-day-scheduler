@@ -8,16 +8,6 @@ let saveBtn = $(".saveBtn")
 //Display current time
 $("#currentDay").text(dayjs().format("dddd MMMM DD YYYY"));
 
-// function displayTimeTop() {
-//     $("#currentDay").text(moment().format("dddd MMMM Do YYYY hh:mm:ss A"));
-
-
-//TODO: wrapping function to ensure code doesn't run until browser renders
-// $(function () {
-
-//     //variables
-//     let saveBtn = $(".saveBtn");
-
     //functions
     function colorBlock() {
         let timeNow = dayjs().hour();
